@@ -136,3 +136,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_gl_phase_offset_ns=1000000
 
+PRODUCT_COPY_FILES += \
+    branding/bootanimation.zip:system/media/bootanimation.zip
