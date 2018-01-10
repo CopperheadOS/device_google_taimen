@@ -16,7 +16,7 @@
 
 -include vendor/google_devices/taimen/proprietary/AndroidBoardVendor.mk
 
-KERNEL_DEFCONFIG := wahoo_defconfig
+KERNEL_DEFCONFIG := taimen_defconfig
 KERNEL_DIR := kernel/google/wahoo
 TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
