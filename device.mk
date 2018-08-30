@@ -126,5 +126,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.layer_cache_size=64 \
     ro.hwui.path_cache_size=32
 
-PRODUCT_COPY_FILES += \
-    branding/bootanimation.zip:system/media/bootanimation.zip
+-include branding/branding.mk
